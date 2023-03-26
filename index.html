@@ -21,72 +21,91 @@
 </head>
 
 <body>
-  <header>
-    <!-- <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a> bootstrap example -->
+  <div class="wrapper">
+    <header>
+      <!-- <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a> bootstrap example -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logos/backgroun_icon_dark.png" alt="logo" height="60"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+              aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Portfolios
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                    <li><a class="dropdown-item" href="#">My Work</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li class="ps-2 fw-bold dropdown-title">External links <i class="fa-solid fa-caret-down"></i></li>
+                    <li><a class="dropdown-item" href="#">GitHub</a></li>
+                    <li><a class="dropdown-item" href="#">WordPress</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--End collapse-->
+          </div><!--End container fluid-->
+        </nav>
+      </div><!--End container-->
+    </header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logos/backgroun_icon_dark.png" alt="logo" height="60"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Portfolios
-                </a>
-                <ul class="dropdown-menu dropdown-menu-lg-end">
-                  <li><a class="dropdown-item" href="#">My Work</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li class="ps-2 dropdown-title">External links</li>
-                  <li><a class="dropdown-item" href="#">GitHub</a></li>
-                  <li><a class="dropdown-item" href="#">WordPress</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--End collapse-->
-        </div><!--End container fluid-->
-      </nav>
+      <main>
+        <div class="container row justify-content-center align-items-center">
+          <img class="col-12 col-lg-4" src="images/logos/Logo-no-text.svg" alt="Logo" height="250">
+          <div class="col-12 col-lg-4 text-center">
+            <h1>Sassy Cat Studios</h1>
+            <h3>A Portfolio for</h3>
+            <h2>Cassie Kukkonen</h2>
+          </div><!--End Col Header div-->
+          <div class="col-12 col-lg-4">
+            <p class="about-text p-3">
+              As a new web developer, my mission is to create websites that are visually appealing, user-friendly, and
+              accessible to all. I am passionate about learning and growing as a developer to better serve my clients
+              and
+              help them achieve their online goals. By providing clear communication and exceptional customer service, I
+              aim to build strong, long-term relationships with my clients and deliver value to their businesses
+            </p>
+          </div><!-- Col Text div-->
+        </div><!---End Container Row-->
+        <!--AOS for stars <div data-aos="flip-left"></div> -->
+      </main>
+    </div><!-----END Container-->
+
+    <div class="container" id="footer">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="images/logos/backgroun_icon_lite.png" alt="logo" height="70"> </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Cassie Kukkonen/Sassy Cat Studios</span>
+        </div> <!--Company/Copyright section-->
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a href="#"><img src="/images/icons/emailIcon.png" alt="email icon" aria-hidden="true"> </a>
+          </li>
+          <li class="ms-3"><a href="#"><img src="/images/icons/linkedinIcon.png" alt="LinkIn icon" aria-hidden="true">
+            </a>
+          </li>
+          <li class="ms-3"><a href="#"><img src="/images/icons/profileIcon.png" alt="Profile icon" aria-hidden="true">
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div><!--End container-->
-  </header>
-
-  <main>
-    <!--AOS for stars <div data-aos="flip-left"></div> -->
-  </main>
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <img src="images/logos/backgroun_icon_dark.png" alt="logo" height="60"> </a>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Cassie Kukkonen/Sassy Cat Studios</span>
-      </div> <!--Company/Copyright section-->
-
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#twitter"></use>
-            </svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#instagram"></use>
-            </svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-              <use xlink:href="#facebook"></use>
-            </svg></a></li>
-      </ul>
-    </footer>
-  </div><!--End container-->
+  </div><!--END Wapper-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>

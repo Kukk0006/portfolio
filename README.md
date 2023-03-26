@@ -16,11 +16,15 @@ Getting Started
 - [x] Footer
 ---------------------------------------------------------
 3-26 1:30pm - 2:15
-- [ ] Nav bar + Skip links -still need skip links and some adjusting
-- [ ] Colors
-- [ ] Background Main - Mobile
 - [x] Background Dropdown
-- [ ] Color Footer
-- [ ] Footer Icons
+Challenged with adding background img with opacity - Used Pseudo :before to place the image just before the dropdown menu content 
+4:00pm - 5:24
+- [ ] Nav bar + Skip links -still need skip links and some adjusting
+- [x] Colors
+- [x] Background Main 
+ Mobile Challenged with adding background img with opacity - Used Pseudo :before to place the image just before the wrapper
+ also added gradient to whole page by targeting body
+- [x] Color Footer
+- [x] Footer Icons
 
 https://codepen.io/Hyperplexed/pen/LYeLopW hover state?

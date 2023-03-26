@@ -1,6 +1,7 @@
 :root {
   --bs-primary: #3c689e;
   --bs-primary-light:#4d93eb;
+  --bs-primary-light-rgb:77, 147, 235;
   --bs-secondary: #6e1c9e;
   --bs-secondary-light:#a836eb;
   --bs-accent:#ebd342;
@@ -8,3 +9,47 @@
 /*font-family: 'Cinzel Decorative', cursive;
 font-family: 'Cormorant Upright', serif;
 font-family: 'Glory', sans-serif; */
+
+/*Makes nav background invisible*/ 
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
+/*----Colors Dropdown menu-------*/
+.dropdown-menu {
+  --bs-dropdown-color: var(--bs-white);
+  --bs-dropdown-bg: var(--bs-primary);
+  --bs-dropdown-border-color: var(--bs-primary);
+  --bs-dropdown-border-radius: 0 0 0.5rem 0.5rem;
+  --bs-dropdown-link-color: var(--bs-white);
+  --bs-dropdown-link-hover-color: var(--bs-gray-300);
+  --bs-dropdown-link-hover-bg: rgba(var(--bs-primary-light-rgb), 0.5);
+  --bs-dropdown-link-active-color: var(--bs-accent);
+  --bs-dropdown-link-active-bg: var(--bs-secondary);
+  position: relative;
+}
+/*---Dropdown background---*/
+.dropdown-menu:before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url('/images/icons/backgroun_repeat.png');
+  background-repeat: repeat;
+  background-position: 50% 0;
+  background-size: 70px;
+}
+/*---Brings text above Dropdown menu---*/
+.dropdown-item,
+.dropdown-divider,
+.dropdown-title{
+  position: relative;
+}
+/*-----bold tex on hover-----*/
+.nav-link:hover,
+.dropdown-item:hover{
+  font-weight: 700;
+}

@@ -10,6 +10,17 @@ Getting Started
 - [x] Link fonts (Cinzel Decorative, Cormant, Glory)
 - [x] Root colors modified
 -----------------------------------------------
-- [ ] Images resized (rubric min 2 sizes) - a few left
-- [ ] Nav bar + Skip links
-- [ ] Footer
+10:45am -11:44
+- [x] Images resized (rubric min 2 sizes) - a few left
+- [ ] Nav bar + Skip links -still need skip links and some adjusting
+- [x] Footer
+---------------------------------------------------------
+3-26 1:30pm - 2:15
+- [ ] Nav bar + Skip links -still need skip links and some adjusting
+- [ ] Colors
+- [ ] Background Main - Mobile
+- [x] Background Dropdown
+- [ ] Color Footer
+- [ ] Footer Icons
+
+https://codepen.io/Hyperplexed/pen/LYeLopW hover state?

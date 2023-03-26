@@ -26,5 +26,6 @@ Challenged with adding background img with opacity - Used Pseudo :before to plac
  also added gradient to whole page by targeting body
 - [x] Color Footer
 - [x] Footer Icons
-
+6:45-7:53
+gridding up main content
 https://codepen.io/Hyperplexed/pen/LYeLopW hover state?

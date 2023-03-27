@@ -82,10 +82,10 @@
           </div><!-- Col Text div-->
         </div><!---End Container Row-->
         <hr>
-        <!--------------------------SKILLS---------------------------------------->
-        <div class="skills-programs row ">
-          <div class="text-center col-sm-12">
-            <h2>Skills</h2>
+        <!--++++++++++++++++++++++++++++++++SKILLS++++++++++++++++++++++++++++++++++++++++++-->
+        <div class="skills-programs row">
+          <div class="text-center col-12 col-md-6 col-lg-3">
+            <h2 class="m-4">Skills</h2>
             <div class="row">
               <h6 class="col-4">Prototyping</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
@@ -117,55 +117,67 @@
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
             </div><!--END skills row 6-->
           </div><!--END Col area 1-->
-          <!--------------------------------------Med Img---------------------------------->
-          <div class="col d-none d-md-block ">
-            <img src="images/photos/bridge-500x334.jpg">
+          <!--+++++++++++++++++++++++++++++++++Med Img++++++++++++++++++++++++++++++++++++++++++-->
+          <div class=" col-12 col-md-6 col-lg-6 d-none d-md-block text-center ">
+            <picture>
+              <source media="(min-width:992px)"
+                srcset="images/photos/bridge-500x334.jpg, images/photos/bridge-1000x668.jpg 2x">
+              <source media="(min-width:768px)" srcset="images/photos/bridge-350x300.jpg">
+              <img src="images/photos/bridge-500x334.jpg" alt="Book overflowing with letters"
+                class="rounded-4 img-fluid">
+            </picture>
           </div><!--END Col area 2-->
-          <!------------------------------------------Programs------------------------------->
-          <div class="col-sm-12 text-center">
-            <h2>Program</h2>
-            <div class="row ">
-              <h6 class="col-4">Prototyping</h6>
+          <!--+++++++++++++++++++++++++++++Programs++++++++++++++++++++++++-->
+          <div class="text-center col-12 col-md-6 col-lg-3 order-md-4">
+            <h2 class="m-4">Programs</h2>
+            <div class="row">
+              <h6 class="col-4">GitHub</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
-              <h6 class="col-4">Teamwork</h6>
+              <h6 class="col-4">LightRoom</h6>
             </div><!--END skills row 1-->
             <div class="row">
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
-              <h6 class="col-4">Vector Graphics</h6>
+              <h6 class="col-4">CodePen</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
             </div><!--END skills row 2-->
             <div class="row">
-              <h6 class="col-4">Photo Editing</h6>
+              <h6 class="col-4">VSCode</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
-              <h6 class="col-4">Adaptable</h6>
+              <h6 class="col-4">Adobe XD</h6>
             </div><!--END skills row 3-->
             <div class="row">
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
-              <h6 class="col-4">Initiative</h6>
+              <h6 class="col-4">Illustrator</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
             </div><!--END skills row 4-->
             <div class="row justify-content-around">
-              <h6 class="col-4">Bootstrap 5</h6>
+              <h6 class="col-4">WordPress</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
-              <h6 class="col-4">HTML & CSS</h6>
+              <h6 class="col-4">InDesign</h6>
             </div><!--END skills row 5-->
             <div class="row">
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
-              <h6 class="col-4">Git</h6>
+              <h6 class="col-4">Photoshop</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
             </div><!--END skills row 6-->
           </div><!--END Col area 3-->
-          <!------------------------------------------Med VP Picture--------------------------->
-          <div class="d-none d-md-flex d-lg-none">
-            <img src="images/photos/book-photo-500x334.jpg">
+          <!--+++++++++++++++++++++++++++++++Med VP Picture++++++++++++++++++++++++++++++++-->
+          <div class="col-md-6 d-none d-md-block d-lg-none text-center order-md-3">
+            <picture>
+              <source media="(min-width:992px)"
+                srcset="images/photos/book-photo-500x334.jpg, images/photos/book-photo-1000x668.jpg 2x">
+              <source media="(min-width:768px)" srcset="images/photos/book-photo-350x300.jpg">
+              <img src="images/photos/book-photo-500x334.jpg" alt="Book overflowing with letters"
+                class="rounded-4 img-fluid">
+            </picture>
           </div><!--END Col area 4-->
         </div><!--END Sills & Programs Row-->
         <!--AOS for stars <div data-aos="flip-left"></div> -->
       </main>
-    </div><!-----END Container-->
+    </div><!--END Container-->
 
     <div class="container" id="footer">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center pt-3 mt-4">
         <div class="col-md-4 d-flex align-items-center">
           <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
             <img src="images/logos/backgroun_icon_lite.png" alt="logo" height="70"> </a>

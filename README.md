@@ -28,4 +28,11 @@ Challenged with adding background img with opacity - Used Pseudo :before to plac
 - [x] Footer Icons
 6:45-7:53
 gridding up main content
+--------------------------------------------------------
+7:39 - 9:04 (distractive)
+- [x] Finish home page grid layout 
+Relearn the Picture tag took a bit of fiddling, still having issues aligning pictures vertically in the center, also added two more img sizes for book and bridge
+- [ ] Nav bar + Skip links -still need skip links and some adjusting
+- [ ] Footer Layout
+
 https://codepen.io/Hyperplexed/pen/LYeLopW hover state?

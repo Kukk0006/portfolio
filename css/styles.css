@@ -21,7 +21,6 @@ font-family: 'Glory', sans-serif; */
   opacity: 0.03;
   background-image: url('../images/icons/backgroun_repeat.png');
   background-repeat: repeat;
-  background-position: 50% 0;
   background-size: 80px;
 }
 header,
@@ -77,6 +76,7 @@ footer{
   background-color: var(--text-bg);
   border-radius: 1em;
 }
+
 #footer{
   background-color: var(--bs-primary);
 }

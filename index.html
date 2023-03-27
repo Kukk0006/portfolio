@@ -36,10 +36,10 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item dropdown ">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -47,13 +47,13 @@
                     Portfolios
                   </a>
                   <ul class="dropdown-menu dropdown-menu-lg-end">
-                    <li><a class="dropdown-item" href="#">My Work</a></li>
+                    <li><a class="dropdown-item" href="mywork.html">My Work</a></li>
                     <li>
                       <hr class="dropdown-divider">
                     </li>
                     <li class="ps-2 fw-bold dropdown-title">External links <i class="fa-solid fa-caret-down"></i></li>
-                    <li><a class="dropdown-item" href="#">GitHub</a></li>
-                    <li><a class="dropdown-item" href="#">WordPress</a></li>
+                    <li><a class="dropdown-item" href="https://github.com/Kukk0006">GitHub</a></li>
+                    <li><a class="dropdown-item" href="http://www.sassycatstudio.com">WordPress</a></li>
                   </ul>
                 </li>
               </ul>
@@ -64,9 +64,9 @@
     </header>
     <div class="container">
       <main>
-        <div class="container row justify-content-center align-items-center">
+        <div class="container row justify-content-center align-items-center pt-3">
           <img class="col-12 col-lg-4" src="images/logos/Logo-no-text.svg" alt="Logo" height="250">
-          <div class="col-12 col-lg-4 text-center">
+          <div class="col-12 col-lg-4 text-center"> <!---Space between headers-->
             <h1>Sassy Cat Studios</h1>
             <h3>A Portfolio for</h3>
             <h2>Cassie Kukkonen</h2>
@@ -81,11 +81,12 @@
             </p>
           </div><!-- Col Text div-->
         </div><!---End Container Row-->
-        <hr>
+        <!--                                 Add picture for higher quality for desktop 🍶           -->
+        <img src="images/icons/seperator.png" alt="horizontal separator" aria-hidden="true" class="w-100 p-1">
         <!--++++++++++++++++++++++++++++++++SKILLS++++++++++++++++++++++++++++++++++++++++++-->
-        <div class="skills-programs row">
+        <div class="skills-programs row pb-3">
           <div class="text-center col-12 col-md-6 col-lg-3">
-            <h2 class="m-4">Skills</h2>
+            <h4 class="m-4">Skills</h4>
             <div class="row">
               <h6 class="col-4">Prototyping</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
@@ -129,7 +130,7 @@
           </div><!--END Col area 2-->
           <!--+++++++++++++++++++++++++++++Programs++++++++++++++++++++++++-->
           <div class="text-center col-12 col-md-6 col-lg-3 order-md-4">
-            <h2 class="m-4">Programs</h2>
+            <h4 class="m-4">Programs</h4>
             <div class="row">
               <h6 class="col-4">GitHub</h6>
               <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" class="col-4" height="40">
@@ -173,6 +174,8 @@
           </div><!--END Col area 4-->
         </div><!--END Sills & Programs Row-->
         <!--AOS for stars <div data-aos="flip-left"></div> -->
+        <a href="mywork.html" class="text-decoration-none"><button class="button main-button">My
+            Work</button></a>
       </main>
     </div><!--END Container-->
 
@@ -185,12 +188,15 @@
         </div> <!--Company/Copyright section-->
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a href="#"><img src="images/icons/emailIcon.png" alt="email icon" aria-hidden="true"> </a>
-          </li>
-          <li class="ms-3"><a href="#"><img src="images/icons/linkedinIcon.png" alt="LinkIn icon" aria-hidden="true">
+          <li class="ms-3 pb-1"><a href="#"><img src="images/icons/emailIcon.png" alt="email icon" aria-hidden="true">
             </a>
           </li>
-          <li class="ms-3"><a href="#"><img src="images/icons/profileIcon.png" alt="Profile icon" aria-hidden="true">
+          <li class="ms-3 pb-1"><a href="#"><img src="images/icons/linkedinIcon.png" alt="LinkIn icon"
+                aria-hidden="true">
+            </a>
+          </li>
+          <li class="ms-3 pb-1"><a href="#"><img src="images/icons/profileIcon.png" alt="Profile icon"
+                aria-hidden="true">
             </a>
           </li>
         </ul>

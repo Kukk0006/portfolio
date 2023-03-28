@@ -29,10 +29,27 @@ Challenged with adding background img with opacity - Used Pseudo :before to plac
 6:45-7:53
 gridding up main content
 --------------------------------------------------------
+3/27
 7:39 - 9:04 (distractive)
 - [x] Finish home page grid layout 
 Relearn the Picture tag took a bit of fiddling, still having issues aligning pictures vertically in the center, also added two more img sizes for book and bridge
 - [ ] Nav bar + Skip links -still need skip links and some adjusting
-- [ ] Footer Layout
+- [x] Footer Layout
+Need to fix vertical alignment 
 
 https://codepen.io/Hyperplexed/pen/LYeLopW hover state?
+--------------------------------
+3/28
+8:11 9:50
+- [x] Contact page - Content
+- [x] Contact page layout
+- [x] Add target="blank" to eternal links
+added septate gradient for non-home pages, fixed color issue with button, researched forms a little it (mailto: not very supported)
+
+11am-
+
+Questions for Noon meeting
+- Background not expanding past initial viewport
+- Align items - Pictures, icons footer
+- Targeting button and adding class to the animation 
+

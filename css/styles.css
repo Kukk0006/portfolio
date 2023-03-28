@@ -33,7 +33,8 @@ main,
 footer{
   position: relative;
 }
-/*-------Glowy button having issues with giving it class or quantifier  -----*/
+/*-------Glowy button having issues with giving it class or quantifier  https://codepen.io/giana/pen/rNpLNgG -----*/
+
 button {
   all: unset;
   color: hsla(var(--text-base), 1);
@@ -146,13 +147,31 @@ button:hover::before, button:hover::after, button:focus::before, button:focus::a
 footer img{
   height:2.5em;
 }
-
+.contact-links a{
+  text-decoration: none;
+  color: var(--bs-primary);
+}
+.contact-links a:hover{
+  color: var(--bs-secondary-light);
+  text-shadow:1px 1px 10px #ebd342;
+}
+/*----------------------My Works------------------*/
+.carousel-inner{
+  max-height: 350px !important;
+}
+.ms-logo{
+  max-height: 270px;
+}
 /*------------for desktop
 .dropdown-menu:before{
   top: 0;
   height: 100%;
 }*/
 body{
+  height:100%;
+  background: linear-gradient(0deg, var(--bs-light)88%, var(--bs-primary)100%) no-repeat;
+}
+.home-gradient{
   height:100%;
   background: linear-gradient(0deg, var(--bs-light),var(--bs-light), var(--bs-primary) 100%) no-repeat;
 }

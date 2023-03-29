@@ -15,6 +15,10 @@
 /*font-family: 'Cinzel Decorative', cursive;
 font-family: 'Cormorant Upright', serif;
 font-family: 'Glory', sans-serif; */
+/*===========================Background Repeat===================*/
+.wrapper{
+position: relative;
+}
 .wrapper:before{
   content: ' ';
   display: block;
@@ -33,9 +37,17 @@ main,
 footer{
   position: relative;
 }
-/*-------Glowy button having issues with giving it class or quantifier  https://codepen.io/giana/pen/rNpLNgG -----*/
-
-button {
+/* ===================== Background Gradient =================== */
+body{
+  height:100%;
+  background: linear-gradient(0deg, var(--bs-light)88%, var(--bs-primary)100%) no-repeat;
+}
+.home-gradient{
+  height:100%;
+  background: linear-gradient(0deg, var(--bs-light),var(--bs-light), var(--bs-primary) 100%) no-repeat;
+}
+/*================Glowy button https://codepen.io/giana/pen/rNpLNgG ================*/
+.main-button {
   all: unset;
   color: hsla(var(--text-base), 1);
   font: 700 1.125rem/1.2 Raleway, sans-serif;
@@ -53,7 +65,7 @@ button {
   position: relative;
   transition: 0.25s ease-out;
 }
-button::before, button::after {
+.main-button::before, .main-button::after {
   content: "";
   border-radius: inherit;
   transition: inherit;
@@ -61,7 +73,7 @@ button::before, button::after {
   inset: 0;
   pointer-events: none;
 }
-button::before {
+.main-button::before {
   inset: -0.2em;
   z-index: -1;
   background: linear-gradient(hsla(var(--shadow-start), 1), hsla(var(--shadow-end), 1));
@@ -70,29 +82,25 @@ button::before {
   transform: scaleY(0.5);
   opacity: 0;
 }
-button::after {
+.main-button::after {
   box-shadow: inset 0 0 0 1px #fff, 0 0 0 4px rgba(255, 255, 255, 0.7), 1px 1px 0 4px #fff;
   mix-blend-mode: overlay;
   opacity: 0;
 }
-button:hover, button:focus {
+.main-button:hover, .main-button:focus {
   color: hsla(var(--text-hover), 1);
   border-color: transparent;
   box-shadow: inset 0 1.4em 0 hsla(var(--shadow-inner), 0.1), inset 0 0 1.4em hsla(var(--shadow-inner), 0.32), 0 1px 1px hsla(var(--shadow-inner), 0.32);
 }
-button:hover::before, button:hover::after, button:focus::before, button:focus::after {
+.main-button:hover::before, .main-button:hover::after, .main-button:focus::before, .main-button:focus::after {
   transform: none;
   opacity: 1;
 }
 .main-button{
   display: block;
-  margin: 2em auto;
+  margin: 1em auto;
 }
-/*----------------------------Mobile 📱 --------------------*/
-/*Makes nav background invisible*/ 
-.bg-body-tertiary {
-  --bs-bg-opacity: 0;
-}
+
 /*----Colors Dropdown menu-------*/
 .dropdown-menu {
   --bs-dropdown-color: var(--bs-white);
@@ -132,6 +140,7 @@ button:hover::before, button:hover::after, button:focus::before, button:focus::a
 .dropdown-item:hover{
   font-weight: 700;
 }
+/*===========================About page==================*/
 .about-text{
   background-color: var(--text-bg);
   border-radius: 1em;
@@ -147,6 +156,7 @@ button:hover::before, button:hover::after, button:focus::before, button:focus::a
 footer img{
   height:2.5em;
 }
+/*========================Contact Page======================*/
 .contact-links a{
   text-decoration: none;
   color: var(--bs-primary);
@@ -156,22 +166,104 @@ footer img{
   text-shadow:1px 1px 10px #ebd342;
 }
 /*----------------------My Works------------------*/
-.carousel-inner{
+/*.carousel-inner{
   max-height: 350px !important;
-}
+} need different solution  */ 
 .ms-logo{
   max-height: 270px;
 }
-/*------------for desktop
+/*------Slider--------*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --position: 95%;
+}
+
+
+.container-slider {
+  display: grid;
+  place-content: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  max-width: 390px;
+}
+
+.image-container {
+  max-width: 800px;
+  max-height: 90vh;
+}
+
+.slider-image {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.image-before {
+  position: absolute;
+  inset: 0;
+  width: var(--position);
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  opacity: 0;
+  /* for Firefox */
+  width: 100%;
+  height: 100%;
+}
+
+.slider:focus-visible ~ .slider-button {
+  outline: 5px solid black;
+  outline-offset: 3px;
+}
+
+.slider-line {
+  position: absolute;
+  inset: 0;
+  width: .2rem;
+  height: 100%;
+  background-color: #fff;
+  /* z-index: 10; */
+  left: var(--position);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.slider-button {
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  padding: .5rem;
+  border-radius: 100vw;
+  display: grid;
+  place-items: center;
+  top: 90%;
+  left: var(--position);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  /* z-index: 100; */
+  box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
+}
+/*----------------------------Mobile 📱 --------------------*/
+/*Makes nav background invisible*/ 
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
+/*------------for desktop----------------- 🏜 
 .dropdown-menu:before{
   top: 0;
   height: 100%;
 }*/
-body{
-  height:100%;
-  background: linear-gradient(0deg, var(--bs-light)88%, var(--bs-primary)100%) no-repeat;
-}
-.home-gradient{
-  height:100%;
-  background: linear-gradient(0deg, var(--bs-light),var(--bs-light), var(--bs-primary) 100%) no-repeat;
-}
+

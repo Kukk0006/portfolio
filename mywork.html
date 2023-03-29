@@ -32,7 +32,7 @@
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item dropdown ">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -68,8 +68,8 @@
                 alt="screenshot of web work">
               <div class="card-body">
               </div><!--end body-->
-              <div class="card-footer">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#gitModal">
+              <div class="card-footer text-center">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#gitModal" class="main-button">
                   Learn More
                 </button>
               </div><!--end footer-->
@@ -111,8 +111,8 @@
               </div><!--End card-img-top-->
               <div class="card-body">
               </div><!--end body-->
-              <div class="card-footer">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#cmsModal">
+              <div class="card-footer text-center">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#cmsModal" class="main-button">
                   Learn More
                 </button>
               </div><!--end footer-->
@@ -122,11 +122,38 @@
           <div class="col-12 col-lg-4">
             <div class="card h-100">
               <h5 class="card-title text-center">Illustrator</h5>
-              <img src="images/photos/mywork/papa-vect-700x390.jpg" class="card-img-top" alt="Papa of Ghost vector">
+              <div class="container-slider m-auto  card-img-top">
+                <div class="image-container ">
+                  <img class="image-before slider-image" src="images/photos/mywork/papa-vect-700x390.jpg"
+                    alt="color photo" />
+                  <img class="image-after slider-image" src="images/photos/mywork/papa-org-700x390.jpg"
+                    alt="black and white" />
+                </div>
+                <!-- step="10" -->
+                <input type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown"
+                  class="slider" />
+                <div class="slider-line" aria-hidden="true"></div>
+                <div class="slider-button" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
+                      stroke-linejoin="round" stroke-width="16"></line>
+                    <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
+                      stroke-linejoin="round" stroke-width="16"></line>
+                    <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round"
+                      stroke-linejoin="round" stroke-width="16"></polyline>
+                    <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
+                      stroke-linejoin="round" stroke-width="16"></line>
+                    <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round"
+                      stroke-linejoin="round" stroke-width="16"></polyline>
+                  </svg>
+                </div>
+              </div>
               <div class="card-body">
               </div><!--end body-->
-              <div class="card-footer">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#illustratorModal">
+              <div class="card-footer text-center">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#illustratorModal" class="main-button">
                   Learn More
                 </button>
               </div><!--end footer-->
@@ -140,8 +167,8 @@
                 alt="Rocky Horror Picture Show fake book">
               <div class="card-body">
               </div><!--end body-->
-              <div class="card-footer">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#photoshopModal">
+              <div class="card-footer text-center">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#photoshopModal" class="main-button">
                   Learn More
                 </button>
               </div><!--end footer-->
@@ -182,8 +209,8 @@
               </div><!--end card-img-top-->
               <div class="card-body">
               </div><!--end body-->
-              <div class="card-footer">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#brochureModal">
+              <div class="card-footer text-center">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#brochureModal" class="main-button">
                   Learn More
                 </button>
               </div><!--end footer-->
@@ -272,14 +299,14 @@
     </div><!--END Container-->
 
     <div class="container-fluid" id="footer">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center pt-3 mt-4">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center p-3">
         <div class="col-md-4 d-flex align-items-center">
           <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
             <img src="images/logos/backgroun_icon_lite.png" alt="logo" height="70"> </a>
           <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Cassie Kukkonen/Sassy Cat Studios</span>
         </div> <!--Company/Copyright section-->
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex align-items-center">
           <li class="ms-3 pb-1"><a href="#"><img src="images/icons/emailIcon.png" alt="email icon" aria-hidden="true">
             </a>
           </li>
@@ -302,6 +329,7 @@
   <script>AOS.init();</script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

@@ -46,8 +46,12 @@ https://codepen.io/Hyperplexed/pen/LYeLopW hover state?
 - [x] Add target="blank" to eternal links
 added septate gradient for non-home pages, fixed color issue with button, researched forms a little it (mailto: not very supported)
 
-11am-
-
+11am-12:36
+- Made massive progress on My Works page!
+still have to stylize to match mock-up plus add text
+3:17 - 4:03
+- Cleaned up css
+- Applied fixes from David to
 Questions for Noon meeting
 - Background not expanding past initial viewport
 - Align items - Pictures, icons footer

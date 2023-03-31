@@ -16,9 +16,12 @@
 <body>
   <div class="wrapper">
     <header>
-      <!-- <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a> bootstrap example -->
+      <div class="skip-links">
+        <a class="sr-only sr-only-focusable" href="#cards">Skip to My Work</a>
+        <a class="sr-only sr-only-focusable" href="#footer">Skip to Footer</a>
+      </div><!--end Skip-links-->
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-md">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
               <img src="images/logos/backgroun_icon_dark.png" alt="logo" height="60"> </a>
@@ -59,7 +62,7 @@
       <main>
         <h1 class="p-4 fw-bolder">My work</h1>
         <!--================= Cards====================-->
-        <div class="row justify-content-around g-4">
+        <div class="row justify-content-around g-4 cards">
           <!--=================Git===============-->
           <div class="col-12 col-lg-6">
             <div class="card h-100">
@@ -239,11 +242,11 @@
         </div><!--end modal-label-->
 
         <!--==================== CMS modal============================-->
-        <div class="modal fade" id="cmsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="cmsModal" tabindex="-1" aria-labelledby="cmsModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">CMS</h4>
+                <h4 class="modal-title" id="cmsModalLabel">CMS</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -255,12 +258,12 @@
           </div> <!--end modal-dialog-->
         </div><!--end modal-label-->
         <!--==================== Illustrator modal============================-->
-        <div class="modal fade" id="illustratorModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="illustratorModal" tabindex="-1" aria-labelledby="illustratorModalLabel"
           aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Illustrator</h4>
+                <h4 class="modal-title" id="illustratorModalLabel">Illustrator</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -274,12 +277,12 @@
           </div> <!--end modal-dialog-->
         </div><!--end modal-label-->
         <!--==================== Photoshop modal============================-->
-        <div class="modal fade" id="photoshopModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="photoshopModal" tabindex="-1" aria-labelledby="photodhopModalLabel"
           aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Photoshop</h4>
+                <h4 class="modal-title" id="photodhopModalLabel">Photoshop</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -297,11 +300,12 @@
           </div> <!--end modal-dialog-->
         </div><!--end modal-label-->
         <!--==================== Brochure modal============================-->
-        <div class="modal fade" id="brochureModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="brochureModal" tabindex="-1" aria-labelledby="brochureModalLabel"
+          aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Brochure</h4>
+                <h4 class="modal-title" id="brochureModalLabel">Brochure</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">

@@ -23,9 +23,14 @@
 <body class="home-gradient">
   <div class="wrapper">
     <header>
-      <!-- <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a> bootstrap example -->
+      <div class="skip-links">
+        <a class="sr-only sr-only-focusable" href="#main">Skip to Content</a>
+        <a class="sr-only sr-only-focusable" href="#skills">Skip to My Skills</a>
+        <a class="sr-only sr-only-focusable" href="#programs">Skip to Programs</a>
+        <a class="sr-only sr-only-focusable" href="#footer">Skip to Footer</a>
+      </div><!--end Skip-links-->
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-md">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
               <img src="images/logos/backgroun_icon_dark.png" alt="logo" height="60"> </a>
@@ -64,7 +69,7 @@
       </div><!--End container-->
     </header>
     <div class="container">
-      <main>
+      <main id="main">
         <div class="container row  d-flex justify-content-center align-items-center pt-3">
           <img class="col-12 col-lg-4" src="images/logos/Logo-no-text.svg" alt="Logo" height="250">
           <div class="col-12 col-lg-4 d-block text-center"> <!---Space between headers-->
@@ -88,7 +93,7 @@
         <!--++++++++++++++++++++++++++++++++SKILLS++++++++++++++++++++++++++++++++++++++++++-->
         <div class="skills-programs row pb-3">
           <div class="text-center col-12 col-md-6 col-lg-3">
-            <h4 class="m-4">Skills</h4>
+            <h4 id="skills" class="m-4">Skills</h4>
             <div class="row">
               <h6 class="col-4">Prototyping</h6>
               <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
@@ -150,7 +155,7 @@
           </div><!--END Col area 2-->
           <!--+++++++++++++++++++++++++++++Programs++++++++++++++++++++++++-->
           <div class="text-center col-12 col-md-6 col-lg-3 order-md-4">
-            <h4 class="m-4">Programs</h4>
+            <h4 id="programs" class="m-4">Programs</h4>
             <div class="row">
               <h6 class="col-4">GitHub</h6>
               <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
@@ -212,8 +217,8 @@
           </div><!--END Col area 4-->
         </div><!--END Sills & Programs Row-->
         <!--AOS for stars <div data-aos="flip-left"></div> -->
-        <a href="mywork.html" class="text-decoration-none"><button class="button main-button">My
-            Work</button></a>
+        <button class="button main-button" onclick="window.location.href='mywork.html';">My
+          Work</button>
       </main>
     </div><!--END Container-->
 

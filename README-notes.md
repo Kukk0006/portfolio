@@ -79,6 +79,10 @@ Possible alt hover state https://codepen.io/kiran-r-raj/pen/poRGMPa
 - Styled headers with fonts
 - Started working on modals - text done, bgs in progress 
 
+8:am
+more fine tuning of colors n stuff
+fixed HTML validation issue of a/button relationship with onclick
+
 
 To Match Mock-up
 - [ ] 

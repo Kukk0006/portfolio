@@ -74,6 +74,12 @@ Questions for Noon meeting
 10:32-10:45
 Added AOS
 Possible alt hover state https://codepen.io/kiran-r-raj/pen/poRGMPa
+3-30
+2:13pm-3
+- Styled headers with fonts
+- Started working on modals - text done, bgs in progress 
+
+
 To Match Mock-up
 - [ ] 
 - [ ] 

@@ -26,3 +26,12 @@ The styling for my .main-button
 ### Slider How-To https://www.youtube.com/watch?v=dzqDU9efnnk
 I really liked this one and went with it because it had one line of JS and utilized the HTML range feature.  It reflected very similarly to how I accomplished the same effect in Adobe XD.  I also appreciate the fact that Chris Pennington implemented accessibility right into the code and explains why.
 ## Workflow
+- Started initial documents and folders
+Having an initial structure - great foundation to keep organized 
+- Filled the images folder with all planned pictures in organized folders
+Formatted images to 2 sizes
+- Got the boiler plate, head (with all cdns) navigation bar, cdn script, background and footer completed.  
+Started with that because it is copied and placed on all the pages.
+- First page to have content was the home page.  
+- Second page contact page
+- Last page my work page

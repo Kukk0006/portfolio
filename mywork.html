@@ -57,13 +57,13 @@
     </header>
     <div class="container-fluid container-md">
       <main>
-        <h1>My work</h1>
+        <h1 class="p-4 fw-bolder">My work</h1>
         <!--================= Cards====================-->
         <div class="row justify-content-around g-4">
           <!--=================Git===============-->
           <div class="col-12 col-lg-6">
             <div class="card h-100">
-              <h5 class="card-title text-center">GitHub</h5>
+              <h3 class="card-title text-center p-2">GitHub</h3>
               <img src="images/photos/mywork/usingPStoMeasure-551x279.jpg" class="card-img-top"
                 alt="screenshot of web work">
               <div class="card-body">
@@ -78,7 +78,7 @@
           <!--====================CMS====================-->
           <div class="col-12 col-lg-6">
             <div class="card h-100">
-              <h5 class="card-title text-center">CMS</h5>
+              <h3 class="card-title text-center p-2">CMS</h3>
               <div class="card-img-top">
                 <!--============Carousel===============-->
                 <div id="cmsCarousel" class="carousel slide" data-bs-ride="false">
@@ -121,7 +121,7 @@
           <!--===================Illustrator=================-->
           <div class="col-12 col-lg-6">
             <div class="card h-100">
-              <h5 class="card-title text-center">Illustrator</h5>
+              <h3 class="card-title text-center p-2">Illustrator</h3>
               <div class="container-slider m-auto  card-img-top">
                 <div class="image-container ">
                   <img class="image-before slider-image" src="images/photos/mywork/papa-vect-700x390.jpg"
@@ -162,7 +162,7 @@
           <!--==========Photoshop===================-->
           <div class="col-12 col-lg-6">
             <div class="card h-100">
-              <h5 class="card-title text-center">Photoshop</h5>
+              <h3 class="card-title text-center p-2">Photoshop</h3>
               <img src="images/photos/mywork/book_cover-896x438.jpg" class="card-img-top"
                 alt="Rocky Horror Picture Show fake book">
               <div class="card-body">
@@ -175,9 +175,9 @@
             </div><!--end card-->
           </div><!--end col-->
           <!--================Brochure====================-->
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 mb-5">
             <div class="card h-100">
-              <h5 class="card-title text-center">Brochure</h5>
+              <h3 class="card-title text-center p-2">Brochure</h3>
               <div class="card-img-top">
                 <!--=================Carousel=============-->
                 <div id="brochureCarousel" class="carousel slide" data-bs-ride="false">
@@ -222,11 +222,17 @@
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">GitHub</h5>
+                <h4 class="modal-title" id="exampleModalLabel">GitHub</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Here is the text about my first big web dev project
+                <p>This is my strongest GitHub Assignment that I completed in semester one. It was the final and I
+                  needed to recreate the provided mock-ups using only HTML and CSS. There was explicitly no Bootstrap or
+                  any other programs like that allowed.</p>
+
+                <p>I had my mock-up open in Photoshop and I used the rulers to help estimate the sizes I needed to use
+                  for font size, padding, margins etc... I took screen captures and overladed them on the source to then
+                  refine to a pixel perfect recreation. </p>
               </div>
             </div><!--end modal-content-->
           </div> <!--end modal-dialog-->
@@ -237,12 +243,14 @@
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">CMS</h5>
+                <h4 class="modal-title" id="exampleModalLabel">CMS</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Here is the text about my CMS
-              </div>
+                <p>This is the product of my second semester Content Management systems. Under the one domain are
+                  three
+                  sites. The main one made using WordPress, then Drupal and finally using Shopify.</p>
+              </div><!--end modal-body-->
             </div><!--end modal-content-->
           </div> <!--end modal-dialog-->
         </div><!--end modal-label-->
@@ -252,11 +260,15 @@
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Illustrator</h5>
+                <h4 class="modal-title" id="exampleModalLabel">Illustrator</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Here is the text about my Illustrator
+                <p>I enjoyed doing this assignment. It was tracing an image using only Illustrator. The live trace and
+                  paint tools were not an option. This was done entirely by hand. I was able to reduce the colors to a
+                  pallet of 13. Live trace lost a lot of details when the option slider was pulled down that low.</p>
+
+                <h6>Image copyright belongs to Ghost</h6>
               </div>
             </div><!--end modal-content-->
           </div> <!--end modal-dialog-->
@@ -267,11 +279,19 @@
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Photoshop</h5>
+                <h4 class="modal-title" id="exampleModalLabel">Photoshop</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Here is the text about my Photoshop
+                <p>I love to explore photoshop so I expanded on the assignment here. The parameters was to cut out two
+                  subjects and place them on a different background. The movie Rocky Horror Picture Show was my
+                  inspiration. I found a font that is very similar to the movie title and captured images of two of the
+                  characters. I used colors present in the film as well.</p>
+
+                <p>I used many tools to create the background and the golden seal. All of the text are modified quotes
+                  or a play-on-words from the film.</p>
+
+                <h6>Copyright belongs to Fox/Disney</h6>
               </div>
             </div><!--end modal-content-->
           </div> <!--end modal-dialog-->
@@ -281,11 +301,18 @@
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Brochure</h5>
+                <h4 class="modal-title" id="exampleModalLabel">Brochure</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Here is the text about my Brochure
+                <p>The focus on this assignment was concise writing featuring product or service that didn't exist. I
+                  used my skills in Photoshop and Illustrator to stylize the brochure.</p>
+
+                <p>I wanted to have an elegant but a dark look. I took inspiration for the logo and color pallet from
+                  wine bottles. The content inspired by historical horror movies. Filled with puns, the text adds a fun
+                  and humorous side without taking away from the sleek look of the document. </p>
+
+                <h6>Photos are copyright to Unsplash </h6>
               </div>
             </div><!--end modal-content-->
           </div> <!--end modal-dialog-->
@@ -321,7 +348,7 @@
         </ul>
       </footer>
     </div><!--End container-->
-  </div><!--END Wapper-->
+  </div><!--END Wrapper-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>

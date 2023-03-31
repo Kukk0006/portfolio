@@ -7,14 +7,23 @@
   --bs-accent:#ebd342;
   --text-bg:rgba(255, 255, 255, 0.3);
   --text-base: 277deg, 55%, 40%;
-  --text-hover: 307deg, 72%, 86%;
+  --text-hover: 276deg, 82%, 60%;
   --shadow-start: 52deg, 100%, 72%;
   --shadow-end: 282deg, 90%, 50%;
   --shadow-inner: 277deg, 90%, 62%;
 }
-/*font-family: 'Cinzel Decorative', cursive;
-font-family: 'Cormorant Upright', serif;
-font-family: 'Glory', sans-serif; */
+body{
+  font-family: 'Glory', sans-serif;
+}
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+}
+h2,
+h3,
+h4,
+h5{
+  font-family: 'Cormorant Upright', serif;
+}
 /*===========================Background Repeat===================*/
 .wrapper{
 position: relative;
@@ -46,6 +55,18 @@ body{
   height:100%;
   background: linear-gradient(0deg, var(--bs-light),var(--bs-light), var(--bs-primary) 100%) no-repeat;
 }
+.nav-link
+ {color: white;
+  font-size: 1.2rem;
+}
+.nav-link:hover{
+  font-weight: bolder;
+  color: #fff;
+}
+.navbar-nav .nav-link.active{
+  color:var(--bs-secondary-light)
+}
+
 /*----Colors Dropdown menu-------*/
 .dropdown-menu {
   --bs-dropdown-color: var(--bs-white);
@@ -89,16 +110,16 @@ body{
 .main-button {
   all: unset;
   color: hsla(var(--text-base), 1);
-  font: 700 1.125rem/1.2 Raleway, sans-serif;
+  font: 700 1.125rem/1.2 'Cormorant Upright', serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
-  padding: 0.85em;
+  padding: 0.7em;
   max-width: 100%;
   width: 12em;
   background: inherit;
   background-clip: padding-box;
-  border: 5px solid hsla(var(--text-base), 1);
+  border: 3px solid hsla(var(--text-base), 1);
   border-radius: 2em;
   cursor: pointer;
   position: relative;
@@ -171,6 +192,28 @@ footer img{
 .ms-logo{
   max-height: 415px;
 }
+.modal-content{
+  position: relative;
+  background-color:#ebd2f3;
+  }
+.modal-content:before{
+  content: ' ';
+  display: block;
+   position: absolute;
+   left: 0;
+  top: 0em;
+   width: 100%;
+  height: 100%;
+  opacity: 0.03;
+   background-image: url('../images/icons/backgroun_repeat.png');
+  background-repeat: repeat;
+  background-size: 80px;
+  }
+  .modal-body{
+    background-color: rgba(235, 218, 240, 0.3);
+    margin:2em;
+  }
+
 /*------Slider--------*/
 *::after,
 *::before {
@@ -243,6 +286,14 @@ footer img{
   pointer-events: none;
   z-index: 100;
   box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
+}
+.card,
+.card-footer{ 
+  background-color:rgba(255, 255, 255, 0.4);
+  border: none;
+}
+.modal-header .btn-close{
+  z-index:999;
 }
 /*----------------------------Mobile 📱 --------------------*/
 /*Makes nav background invisible*/ 

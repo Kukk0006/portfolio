@@ -356,7 +356,14 @@ footer img{
       background-position: 50% 0;
       background-size: 70px;
     }
+  .dropdown-item,
+.dropdown-divider,
+.dropdown-title,
+.nav-item{
+  position: relative;
 }
+}
+
 
 /*------------for desktop----------------- 🏜 
 */

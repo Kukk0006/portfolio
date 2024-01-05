@@ -1,0 +1,164 @@
+<div class="container">
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logos/backgroun_icon_lite.png" alt="logo" height="60"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Portfolios
+            </a>
+            <ul class="dropdown-menu dropdown-menu-lg-end">
+              <li><a class="dropdown-item" href="mywork.html">My Work</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li class="ps-2 fw-bold dropdown-title">External links <i class="fa-solid fa-caret-down"></i></li>
+              <li><a class="dropdown-item" href="https://github.com/Kukk0006" target="_blank">GitHub</a></li>
+          </li>
+        </ul>
+        </li>
+        </ul>
+      </div><!--End collapse-->
+    </div><!--End container fluid-->
+  </nav>
+</div><!--End container-->
+
+
+
+
+
+
+
+<div class="skills-programs row pb-3">
+  <div class="text-center col-12 ">
+    <h4 id="skills" class="m-4">Skills</h4>
+    <div class="row" data-aos="flip-left" data-aos-delay="100">
+      <h6 class="col-5">Prototyping</h6>
+      <div class="star col-2">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div>
+      <div class="row" data-aos="flip-left" data-aos-delay="100">
+        <div class="star col-2">
+          <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+        </div>
+        <h6 class="col-5">Teamwork</h6>
+      </div>
+    </div>
+    <div class="row" data-aos="flip-left" data-aos-delay="100">
+      <div class="star col-4">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">Vector Graphics</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+    </div><!--END skills row 2-->
+    <div class="row">
+      <h6 class="col-4">Photo Editing</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">Adaptable</h6>
+    </div><!--END skills row 3-->
+    <div class="row">
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">Initiative</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+    </div><!--END skills row 4-->
+    <div class="row justify-content-around">
+      <h6 class="col-4">Bootstrap 5</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">HTML & CSS</h6>
+    </div><!--END skills row 5-->
+    <div class="row">
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">Git</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+    </div><!--END skills row 6-->
+  </div><!--END Col area 1-->
+
+  <!--+++++++++++++++++++++++++++++Programs++++++++++++++++++++++++-->
+  <div class="text-center col-12 ">
+    <h4 id="programs" class="m-4">Programs</h4>
+    <div class="row">
+      <h6 class="col-4">GitHub</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">LightRoom</h6>
+    </div><!--END skills row 1-->
+    <div class="row">
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">CodePen</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+    </div><!--END skills row 2-->
+    <div class="row">
+      <h6 class="col-4">VSCode</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">Adobe XD</h6>
+    </div><!--END skills row 3-->
+    <div class="row">
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">Illustrator</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+    </div><!--END skills row 4-->
+    <div class="row justify-content-around">
+      <h6 class="col-4">WordPress</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">InDesign</h6>
+    </div><!--END skills row 5-->
+    <div class="row">
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+      <h6 class="col-4">Photoshop</h6>
+      <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
+      </div><!--end Star AOS-->
+    </div><!--END skills row 6-->
+  </div><!--END Col area 3-->
+  <!--+++++++++++++++++++++++++++++++Med VP Picture++++++++++++++++++++++++++++++++-->
+  <div class="col-md-6 d-none d-md-flex align-items-center d-lg-none text-center order-md-3">
+    <picture>
+      <source media="(min-width:992px)"
+        srcset="images/photos/book-photo-500x334.jpg, images/photos/book-photo-1000x668.jpg 2x">
+      <source media="(min-width:768px)" srcset="images/photos/book-photo-350x300.jpg">
+      <img src="images/photos/book-photo-500x334.jpg" alt="Book overflowing with letters" class="rounded-4 img-fluid">
+    </picture>
+  </div><!--END Col area 4-->
+</div><!--END Sills & Programs Row-->
+<!--AOS for stars <div data-aos="flip-left"></div> -->

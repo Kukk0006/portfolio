@@ -4,8 +4,8 @@
   --bs-primary-light-rgb:77, 147, 235;
   --bs-secondary: #6e1c9e;
   --bs-secondary-light:#a836eb;
-  --bs-secondary-rgba:rgba(168,54,235,1.000)
-  --bs-accent:#ebd342;
+  --bs-secondary-rgba:rgba(168,54,235,1.000);
+  --bs-accent: #ebd342;
   --text-bg:rgba(255, 255, 255, 0.3);
   --text-base: 277deg, 55%, 40%;
   --text-hover: 276deg, 82%, 60%;
@@ -26,6 +26,11 @@ h4,
 h5{
   font-family: 'Cormorant Upright', serif;
 }
+header,
+main,
+footer{
+  position: relative;
+}
 /*===========================Background Repeat===================*/
 .wrapper{
 position: relative;
@@ -42,18 +47,12 @@ position: relative;
   background-image: url('../images/icons/backgroun_repeat.png');
   background-repeat: repeat;
   background-size: 80px;
+  z-index: -1;
 }
-header,
-main,
-footer{
-  position: relative;
-}
+
 /* ===================== Background Gradient =================== */
+
 body{
-  height:100%;
-  background: linear-gradient(0deg, var(--bs-light)88%, var(--bs-primary)100%) no-repeat;
-}
-.home-gradient{
   height:100%;
   background: linear-gradient(0deg, var(--bs-light),var(--bs-light), var(--bs-primary) 100%) no-repeat;
 }
@@ -68,12 +67,14 @@ body{
   transition: transform 0.3s;
   text-decoration: none;
   font-size: 1.2em;
+  z-index: 999;
 }
 
 .skip-links a:focus {
   transform: translateY(0%);
+  z-index: 999;
 }
-.nav-link,
+/* .nav-link,
 .nav-link:visited,
 .nav-link:focus
  {color: white;
@@ -88,10 +89,10 @@ body{
 .navbar-nav .nav-link.active{
   color: white;
   border-bottom: 2px solid var(--bs-accent);
-}
+} */
 
 /*----Colors Dropdown menu-------*/
-.dropdown-menu {
+/* .dropdown-menu {
   --bs-dropdown-color: var(--bs-white);
   --bs-dropdown-bg: var(--bs-primary);
   --bs-dropdown-border-color: var(--bs-primary);
@@ -102,9 +103,9 @@ body{
   --bs-dropdown-link-active-color: var(--bs-accent);
   --bs-dropdown-link-active-bg: var(--bs-secondary);
   position: relative;
-}
+} */
 /*---Dropdown background---*/
-.dropdown-menu:before{
+/* .dropdown-menu:before{
   content: ' ';
   display: block;
   position: absolute;
@@ -117,30 +118,31 @@ body{
   background-repeat: repeat;
   background-position: 50% 0;
   background-size: 70px;
-}
+} */
 /*---Brings text above Dropdown menu---*/
-.dropdown-item,
+/* .dropdown-item,
 .dropdown-divider,
 .dropdown-title{
   position: relative;
-}
+} */
 /*-----bold tex on hover-----*/
-.nav-link:hover,
+/* .nav-link:hover,
 .dropdown-item:hover{
   font-weight: 700;
-}
+} */
+
 /*=====Glowy button  ========*/
 .main-button {
   all: unset;
-  color: hsla(var(--text-base), 1);
-  font: 700 1.125rem/1.2 'Cormorant Upright', serif;
+  color: #ece098;
+  font: bolder 1.5rem/1.2rem 'Cormorant Upright', serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
   padding: 0.7em;
   max-width: 100%;
-  width: 12em;
-  background: inherit;
+  width: 10em;
+  background: rgba(17, 17, 17, 0.904);
   background-clip: padding-box;
   border: 3px solid hsla(var(--text-base), 1);
   border-radius: 2em;
@@ -183,36 +185,91 @@ body{
   display: block;
   margin: 1em auto;
 }
-/* scroll bar from W3Schools */
+/* ----------scroll bar from W3Schools---------- */
 ::-webkit-scrollbar {
   width: 20px;
+  background-color: transparent;
 }
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
+ 
+  background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
   background: #a936eb49;
   border-radius: 10px;
   height: 40px;
 }
+
 #footer{
   background-color: var(--bs-primary);
 }
 .text-body-secondary{
   color:var(--bs-light)!important;
 }
+.hero{
+  overflow: hidden;
+  position: relative;
+  max-height: 100vh;
+}
+.hero h1{
+  z-index: 12;
+  position: absolute;
+  color: #fff;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 4rem;
+}
+.hero h2{
+  z-index: 12;
+  position: absolute;
+  bottom: 5em;
+  color: #fff;
+}
+.hero .container{
+  position: absolute;
+  z-index:9;
+  bottom:5em;
+}
+
+/* --------------------------------------------------------------- */
+
+/*--------------------------------------------------------------*/
+.skill-row{
+  padding:3em 0;
+}
+#skills ul{
+  padding:0;
+  margin:0;
+}
+#skills ul li{
+  list-style: none;
+}
+.star{
+  height:5em;
+  width: auto;
+}
+
+#mywork{
+  min-height: 100vh;
+}
+
+#mywork .main-button{
+  font-size: 1em;
+  background-color: transparent;
+  color:var(--text-base);
+}
+
+
 /*-----Add hover animation https://codepen.io/dig-lopes/pen/WLVGda ⏫ -----*/
 footer img{
   height:2.5em;
 }
 /*===========================About page==================*/
-.about-text{
-  background-color: var(--text-bg);
-  border-radius: 1em;
-}
-
+/* #aboutme{
+  height:100vh;
+} */
 /*========================Contact Page======================*/
+
 .contact-links a{
   text-decoration: none;
   color: var(--bs-primary);
@@ -225,9 +282,11 @@ footer img{
 .ms-logo{
   max-height: 415px;
 }
+
 .modal-content{
   position: relative;
   background-color:#ebd2f3;
+  
   }
 .modal-content:before{
   content: ' ';
@@ -253,6 +312,13 @@ footer img{
  .modal-body a:hover{
   color: var(--bs-primary);
   font-weight: bold;
+ }
+ .card-video{
+  height:75vh;
+ }
+ .motionGraphics{
+  height:15em;
+  width: auto;
  }
 /*------Slider--------*/
 *::after,
@@ -338,38 +404,24 @@ footer img{
   .bg-body-tertiary {
     --bs-bg-opacity: 0;
   }
-  .navbar-collapse{
-    background-color: var(--bs-primary);
-    position: relative;
+
+  .main-button{
+    padding:0.3em;
+    width:7em;
   }
-  .navbar-collapse:before{
-      content: ' ';
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0.1;
-      background-image: url('../images/icons/backgroun_repeat.png');
-      background-repeat: repeat;
-      background-position: 50% 0;
-      background-size: 70px;
-    }
-  .dropdown-item,
-.dropdown-divider,
-.dropdown-title,
-.nav-item{
-  position: relative;
-}
+  .hero .container{
+    bottom:0em;
+  }
+  .hero h3{
+    bottom:5.5em;
+  }
+
 }
 
 
 /*------------for desktop----------------- 🏜 
 */
 @media only screen and (min-width: 768px){
-  .dropdown-menu:before{
-    top: 0;
-    height: 100%;
-  }
+ 
+ 
 }

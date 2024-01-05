@@ -20,7 +20,7 @@
   <title>Home</title>
 </head>
 
-<body class="home-gradient">
+<body>
   <div class="wrapper">
     <header>
       <div class="skip-links">
@@ -29,198 +29,603 @@
         <a class="sr-only sr-only-focusable" href="#programs">Skip to Programs</a>
         <a class="sr-only sr-only-focusable" href="#footer">Skip to Footer</a>
       </div><!--end Skip-links-->
-      <div class="container">
-        <nav class="navbar navbar-expand-md">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logos/backgroun_icon_lite.png" alt="logo" height="60"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-              aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Portfolios
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-lg-end">
-                    <li><a class="dropdown-item" href="mywork.html">My Work</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li class="ps-2 fw-bold dropdown-title">External links <i class="fa-solid fa-caret-down"></i></li>
-                    <li><a class="dropdown-item" href="https://github.com/Kukk0006" target="_blank">GitHub</a></li>
-                    <li><a class="dropdown-item" href="http://www.sassycatstudio.com" target="_blank">WordPress</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--End collapse-->
-          </div><!--End container fluid-->
-        </nav>
-      </div><!--End container-->
     </header>
-    <div class="container">
-      <main id="main">
-        <div class="container row  d-flex justify-content-center align-items-center pt-3">
-          <img class="col-12 col-lg-4" src="images/logos/Logo-no-text.svg" alt="Logo" height="250">
-          <div class="col-12 col-lg-4 d-block text-center"> <!---Space between headers-->
-            <h1>Sassy Cat Studios</h1>
-            <h3>A Portfolio for</h3>
-            <h2>Cassie Kukkonen</h2>
-          </div><!--End Col Header div-->
-          <div class="d-flex align-items-center col-12 col-lg-4">
-            <p class="about-text p-3">
-              As a new web developer, my mission is to create websites that are visually appealing, user-friendly, and
-              accessible to all. I am passionate about learning and growing as a developer to better serve my clients
-              and
-              help them achieve their online goals. By providing clear communication and exceptional customer service,
-              I
-              aim to build strong, long-term relationships with my clients and deliver value to their businesses
+
+    <main id="main">
+      <div class="fixed-bottom p-3 d-flex justify-content-end"><a href="#main">TOP</a></div>
+      <div class="hero d-flex justify-content-center align-items-center">
+        <img src="images/photos/hero-banner.jpg" alt="Galaxy Hero Image with Eclipse in the center">
+        <h1 class="text-center">Cassie Fournier</h1>
+
+        <!-- <h2 class="display-2">Web Development</h2>
+          <h2 class="display-2">Web Design</h2>
+          <h2 class="display-2">Motion Graphics</h2>
+          <h2 class="display-2">Video Editing</h2> -->
+
+        <div class="container d-md-flex d-block nav">
+          <button class="button main-button" onclick="window.location.href='#aboutme';">About Me</button>
+          <button class="button main-button" onclick="window.location.href='#skills';">Skills</button>
+          <button class="button main-button" onclick="window.location.href='#mywork';">My
+            Work</button>
+
+
+        </div>
+      </div>
+    </main>
+    <!--+++++++++++++++++++++++++++++++++AboutMe+++++++++++++++++++++++++-->
+    <div class="container" id="aboutme">
+      <h2 class="p-4 fw-bolder">About Me</h2>
+
+      <div class="row">
+        <picture class="col-lg-4  text-center">
+          <source media="(min-width:992px)" srcset="images/photos/profile-355x376.jpg">
+          <source media="(min-width:768px)" srcset="images/photos/profile-236x250.jpg">
+          <img src="images/photos/profile-236x250.jpg" alt="Cassie Kukkonen headshot" class="rounded-4 img-fluid">
+        </picture>
+        <div class="col-lg-8 pt-2">
+          <p>I'm a student at Algonquin College of Applied Arts and Technology, on track to graduate
+            in April 2024. My college ride has been quite the adventure, exploring a mix of subjects—from web design and
+            photography to videography and UX design. But you know what really caught my eye? Motion graphics! During a
+            group project in the video production course, I took charge of creating most of the motion graphics used.
+            That
+            experience got me hyped up for an upcoming dedicated course in that field. Exploring motion graphics got me
+            hooked because it's just so fascinating and has a combination of creativity and logic!</p>
+
+          <p>I'm all about soaking up new knowledge—I dive into tutorials across a wide range of topics. My only setback
+            is sometimes not fully mastering a specific subject. That's also where my strength lies—I've got a solid
+            grasp
+            of many topics and an insatiable appetite to learn more. This inherent curiosity keeps me driven to expand
+            my
+            skill set and venture into uncharted territories. Here's to embracing the joy of learning across the board!
+          </p>
+          <div id="contact-links" class="contact-links d-flex justify-content-around pt-3">
+            <a href="mailto:kukkonenc@yahoo.com" role="button" class="text-center col-4 rounded-5">
+              <h2 class=" fw-bolder">Email</h2>
+            </a>
+            <a href="documents/Fournier-Student-Resume.pdf" download="CassieFournierResume" role="button"
+              class="text-center col-4 rounded-5">
+              <h2 class=" fw-bolder">Resume</h2>
+            </a>
+            <a href="https://www.linkedin.com/in/cassandra-kukkonen/" target="_blank" role="button"
+              class="text-center col-4 rounded-5">
+              <h2 class=" fw-bolder">LinkedIn</h2>
+            </a>
+          </div><!--End links row-->
+        </div>
+      </div><!--End Pictures row-->
+    </div><!--End About me-->
+
+
+    <!--++++++++++++++++++++++++++++++++SKILLS++++++++++++++++++++++++++++++++++++++++++-->
+    <div class="container skill-container pt-5" id="skills">
+      <h2>Skills and Programs</h2>
+      <div class="row d-flex align-items-center skill-row" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="3000">
+        <div class="col-5 "></div>
+        <div class="col-2 text-center">
+          <img src="images/icons/bulet.svg" class="star" alt="star icon" aria-hidden="true">
+        </div>
+        <div class="col-5 details">
+          <h3>Time Management</h3>
+          <p>Understanding that unexpected speed bumps come up, starting early and working ahead is important.</p>
+        </div>
+      </div><!--end skill row right-->
+      <div class="row d-flex align-items-center pt-3 pb-3" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="3000">
+        <div class="col-5 details text-end">
+          <h3>Teachable</h3>
+          <ul>
+            <li>Three Dean's Letters</li>
+            <li>Pursues Self-learning</li>
+            <li>Frequently Promoted</li>
+          </ul>
+        </div>
+        <div class="col-2 text-center">
+          <img src="images/icons/bulet.svg" class="star" alt="star icon" aria-hidden="true">
+        </div>
+        <div class="col-5 d-sm-none d-md-flex"></div>
+      </div><!--end skill row left-->
+      <div class="row d-flex align-items-center skill-row" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="3000">
+        <div class="col-5 "></div>
+        <div class="col-2 text-center">
+          <img src="images/icons/bulet.svg" class="star" alt="star icon" aria-hidden="true">
+        </div>
+        <div class="col-5 details">
+          <h3>Teamwork</h3>
+          <caption>Through deligating tasks and taking my own initiavte to get stuff done</caption>
+        </div>
+      </div><!--end skill row right-->
+      <div class="row d-flex align-items-center pt-3 pb-3" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="3000">
+        <div class="col-5 details text-end">
+          <h3>Web Design & Development</h3>
+          <ul>
+            <li>GitHub</li>
+            <li>Visual Studio Code</li>
+            <li>CSS, HTML5 and JavaScript</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col-2 text-center">
+          <img src="images/icons/bulet.svg" class="star" alt="star icon" aria-hidden="true">
+        </div>
+        <div class="col-5 "></div>
+      </div><!--end skill row left-->
+      <div class="row d-flex align-items-center skill-row" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="3000">
+        <div class="col-5 "></div>
+        <div class="col-2 text-center">
+          <img src="images/icons/bulet.svg" class="star" alt="star icon" aria-hidden="true">
+        </div>
+        <div class="col-5 details">
+          <h3>Adobe Suite</h3>
+          <ul>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>AfterEffects</li>
+            <li>LightRoom</li>
+          </ul>
+        </div>
+      </div><!--end skill row right-->
+      <div class="row d-flex align-items-center pt-3 pb-3" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="3000">
+        <div class="col-5 details text-end">
+          <h3>UX Design</h3>
+          <p>Knowledge about creating personas, user journeys, focus groups and testing. Understand Figma, XD and
+            testing through Maze</p>
+        </div>
+        <div class="col-2 text-center">
+          <img src="images/icons/bulet.svg" class="star" alt="star icon" aria-hidden="true">
+        </div>
+        <div class="col-5 d-sm-none d-md-flex"></div>
+      </div><!--end skill row left-->
+
+      <div class="row d-flex align-items-center skill-row" data-aos="zoom-in" data-aos-delay="200"
+        data-aos-duration="3000">
+        <div class="col-5 "></div>
+        <div class="col-2 text-center">
+          <img src="images/icons/bulet.svg" class="star" alt="star icon" aria-hidden="true">
+        </div>
+        <div class="col-5 details">
+          <h3>Self-Taught & Pursuing</h3>
+          <ul>
+            <li>Blender</li>
+            <li>Lottie</li>
+            <li>DaVinci Resolve</li>
+            <li>Rive</li>
+          </ul>
+        </div>
+      </div><!--end skill row right-->
+
+    </div><!--End Skills-->
+    <!--++++++++++++++++++++++My Work+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <div class="mywork-container p-5" id="mywork">
+      <h2 class="p-4 fw-bolder">My Work</h2>
+      <!--================= Cards====================-->
+      <div class="row justify-content-around g-4 cards">
+        <!--=================Video===============-->
+        <div class="col-12 col-xl-6">
+          <div class="card card-video ">
+            <h3 class="card-title text-center p-2">From Passion to Pint</h3>
+            <iframe src="https://www.youtube.com/embed/JbU2u-E4XZ8" allow="fullscreen"
+              class="card-img-top h-100"></iframe>
+            <div class="card-body">
+            </div><!--end body-->
+            <div class="card-footer text-center">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#videoModal" class="main-button">
+                Learn More
+              </button>
+            </div><!--end footer-->
+          </div><!--end card-->
+        </div><!--end col-->
+        <!--====================APOD====================-->
+        <div class="col-12 col-xl-6">
+          <div class="card h-100">
+            <h3 class="card-title text-center p-2">Astronomy Picture if the Day</h3>
+            <div class="card-img-top">
+              <!--============Carousel===============-->
+              <div id="jsCarousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/photos/mywork/apod-home.png" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/photos/mywork/apod-favs.png" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/photos/mywork/apod-today.png" class="d-block w-100" alt="">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="jsCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#jsCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div><!--end Carousel-->
+              <!--===========End Carousel==============-->
+            </div><!--End card-img-top-->
+            <div class="card-body">
+            </div><!--end body-->
+            <div class="card-footer text-center">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#jsModal" class="main-button">
+                Learn More
+              </button>
+            </div><!--end footer-->
+          </div><!--end card-->
+        </div><!--end col-->
+        <!--===================Illustrator=================-->
+        <div class="col-12 col-xl-6">
+          <div class="card h-100">
+            <h3 class="card-title text-center p-2">Illustrator</h3>
+            <div class="container-slider m-auto  card-img-top">
+              <div class="image-container ">
+                <img class="image-before slider-image" src="images/photos/mywork/papa-vect-700x390.jpg"
+                  alt="color photo" />
+                <img class="image-after slider-image" src="images/photos/mywork/papa-org-700x390.jpg"
+                  alt="black and white" />
+              </div>
+              <!-- step="10" -->
+              <input type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown"
+                class="slider" />
+              <div class="slider-line" aria-hidden="true"></div>
+              <div class="slider-button" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                  viewBox="0 0 256 256">
+                  <rect width="256" height="256" fill="none"></rect>
+                  <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></line>
+                  <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></line>
+                  <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></polyline>
+                  <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></line>
+                  <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="16"></polyline>
+                </svg>
+              </div>
+            </div>
+            <div class="card-body">
+            </div><!--end body-->
+            <div class="card-footer text-center">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#illustratorModal" class="main-button">
+                Learn More
+              </button>
+            </div><!--end footer-->
+          </div><!--end card-->
+        </div><!--end col-->
+        <!--==========Photoshop===================-->
+        <div class="col-12 col-xl-6">
+          <div class="card h-100">
+            <h3 class="card-title text-center p-2">Photoshop</h3>
+            <img src="images/photos/mywork/book_cover-896x438.jpg" class="card-img-top"
+              alt="Rocky Horror Picture Show fake book">
+            <div class="card-body">
+            </div><!--end body-->
+            <div class="card-footer text-center">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#photoshopModal" class="main-button">
+                Learn More
+              </button>
+            </div><!--end footer-->
+          </div><!--end card-->
+        </div><!--end col-->
+        <!--================Brochure====================-->
+        <div class="col-12 col-xl-6 mb-5">
+          <div class="card card-brochure h-100">
+            <h3 class="card-title text-center p-2">Brochure</h3>
+            <div class="card-img-top">
+              <!--=================Carousel=============-->
+              <div id="brochureCarousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/photos/mywork/moon-scream-outside-537x350.jpg" class="d-block w-100"
+                      alt="MoonScream Brochure Outside">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/photos/mywork/moon-scream-inside-537x350.jpg" class="d-block w-100"
+                      alt="MoonScream Brochure Inside">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/photos/mywork/moon-scream-logo-548x700.jpg"
+                      class="d-block m-auto img-fluid ms-logo " alt="MoonScream Logo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#brochureCarousel"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#brochureCarousel"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div><!--end Carousel-->
+            </div><!--end card-img-top-->
+            <div class="card-body">
+            </div><!--end body-->
+            <div class="card-footer text-center">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#brochureModal" class="main-button">
+                Learn More
+              </button>
+            </div><!--end footer-->
+          </div><!--end card-->
+        </div><!--end col-->
+      </div><!--End row-->
+    </div>
+    <!--====================Video modal=============================-->
+    <div class="modal modal-xl fade" id="videoModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="ModalLabel">From Passion to Pint</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col">
+                <p>The third semester saw me deeply engrossed in a group project centered around creating a
+                  documentary-style video. Our focus was on Tooth and Nail, a brewpub and its dedicated owner
+                  located in
+                  Ottawa. The narrative delved into the journey of Matt Tweedy, revealing his entrepreneurial
+                  aspirations
+                  and his fervor for the brewing process. Despite juggling multiple classes and their respective
+                  projects,
+                  we had a tight six-week deadline to finalize our project. Remarkably, we consistently attended
+                  weekly
+                  meetings with our professor and diligently prepared all necessary documentation for our
+                  presentation.
+                  At
+                  times, we even managed to stay ahead of schedule. For instance, I had prepped samples of motion
+                  graphics and infographics to showcase to the professor. Our progress impressed the professor so
+                  much
+                  that we
+                  were
+                  slated as the first to present to a combined audience of two Video Production classes, with even a
+                  program coordinator in attendance. I take immense pride in the collaborative effort that resulted
+                  in
+                  our
+                  outstanding production.</p>
+              </div><!--end col-->
+            </div><!--end row-->
+            <div class="row">
+              <div class="col-6">
+                <h5>Filming Day</h5>
+                <p>My involvement spanned the entire video production process, from brainstorming to the final
+                  editing
+                  phase. On set, I managed the main camera used for interviews and assisted in setting up the
+                  lighting.
+                  I
+                  also contributed to capturing initial b-roll footage. A couple of standout moments for me were
+                  perfecting the creative treatment with a shallow depth of field and catching the reflection of the
+                  LED
+                  panel in our stand-in's glasses. Our aim was to achieve a soft, yet present background, fostering
+                  a
+                  warm
+                  and conversational atmosphere during the interviews. Dealing with the challenge of the interview
+                  subject
+                  wearing glasses, I strategically positioned a reflector to complement the key light setup,
+                  effectively
+                  softening shadows and enhancing facial illumination. Addressing these elements during filming
+                  considerably eased the post-production phase.</p>
+              </div><!--end col-->
+              <div class="col-6 align-self-center">
+                <img src="images/photos/mywork/20231116_114814.jpg" alt="filming set-up" class="img-fluid modal-img">
+              </div><!--end col-->
+            </div><!--end row-->
+            <h5>Motion Graphics</h5>
+            <p>My primary responsibility unexpectedly involved creating motion graphics and animations. I commenced
+              by
+              designing our group's logo and animating it. Employing vector illustrations, the original design
+              seamlessly transitioned into After Effects. The animation remained simple yet impactful. During the
+              brainstorming phase, I envisioned using the brewery's existing logos from their cans. I aimed for a
+              vintage, hand-drawn appearance, crafting paper-like cutouts resembling different layers of the logos.
+              Initially utilizing Illustrator, I later learned that Photoshop documents could be imported similarly.
+              This project marked my debut in creating animations within After Effects. I ventured into learning
+              Duik
+              Angela and crafted several animations, including one used by a team member for the lower thirds.
+              Tutorials guided my creation of map animations and inspired the timeline infographic. I meticulously
+              edited the interview audio, syncing animation timing with key audio moments while aligning imagery
+              with
+              the brewery's established branding. Additionally, I designed credits, modifying a template to resemble
+              the effervescence of golden beer. We chose not to assign specific titles due to our collective
+              involvement across various roles. Expressing gratitude, we acknowledged the establishment, logo
+              creator,
+              school, Algonquin peoples, and those interviewed. Tragically, our main subject's father passed away
+              during post-production, prompting us to include a tribute before the credits in honor of his
+              significance in our subject's life.</p>
+            <div class="row">
+              <div class="col-4">
+                <video class="motionGraphics" autoplay loop>
+                  <source src="images/videos/vimandvigor_1.mp4" type="video/mp4">
+                  <img src="">
+                </video>
+              </div>
+              <div class="col-4 ">
+                <video class="motionGraphics" autoplay loop>
+                  <source src="images/videos/fog-ducker.mp4" type="video/mp4">
+                  <img src="">
+                </video>
+              </div>
+              <div class="col-4">
+                <video class="motionGraphics" autoplay loop>
+                  <source src="images/videos/valorcow.mp4" type="video/mp4">
+                  <img src="">
+                </video>
+              </div>
+            </div>
+            <h5>Editing</h5>
+            <p>Assuming the role of final editor, I undertook tasks such as color grading the second camera and
+              keyframing audio cuts. Addressing the considerable variance in white balance between cameras, I
+              standardized settings across clips using an adjustment layer, subsequently fine-tuning individual
+              clips.
+              Regrettably, our initial room tone recording was missing, necessitating creative methods to ensure
+              consistent audio undercuts and keyframes. I strategically inserted pauses to facilitate a semblance of
+              room tone. Lastly, I curated the music, synchronizing it with pivotal moments and seamlessly
+              transitioning tracks to maintain narrative coherence. We deliberately limited our video to two tracks,
+              aiming for an energizing yet cinematic vibe to complement both interviews and animations.</p>
+
+            <h5>Challenges</h5>
+            <p>This project presented formidable challenges that contributed significantly to my learning curve.
+              Embracing a proactive approach, I typically work within a timeframe shorter than allocated, allowing
+              room for unforeseen setbacks or enhancements. However, not all team members shared this method,
+              leading
+              to stress within the group. To navigate this, I engaged in self-directed learning on After Effects,
+              devising adaptable templates despite the absence of footage, and juggled multiple projects with
+              similar
+              deadlines. Another hurdle involved balancing the project's time commitment, as it evolved into a
+              passion
+              project surpassing the initial scope of a promotional video. The hours invested exceeded the project's
+              intended scope, bridging into personal dedication and commitment.</p>
+
+            <p>In conclusion, this project proved to be an invaluable learning experience, substantially expanding
+              my
+              proficiency in After Effects and motion graphics.</p>
+
+          </div>
+        </div><!--end modal-content-->
+      </div> <!--end modal-dialog-->
+    </div><!--end modal-label-->
+
+    <!--==================== JS modal============================-->
+    <div class="modal modal-xl fade" id="jsModal" tabindex="-1" aria-labelledby="jsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="jsModalLabel">Astronomy Picture of the Day</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>This is the final project for Web Development III. The focus of the assignment was JavaScript and the use
+              of API calls. I chose to do the NASA Astronomy Picture of the Day (APOD) one. When I was looking around at
+              libraries I found one called TurnJS that inspired pretty much the whole site. TurnJS turns the website
+              content into an interactive book where the pages bend and move like paper. One of the requirements was to
+              have favorites stored in local storage, and I thought it would be neat to have it as a photo album. For
+              the final turn in, I had to pass up on that idea to accomplish the task at hand. It can be found <a
+                href="https://kukk0006.github.io/mtm6302-capstone-Kukk0006/" target="_blank">HERE.</a></p>
+
+            <h3>Assets</h3>
+
+            <p>One of the fonts I chose is Exo as the main font. It is clean and easy to read, but gives a sci-fi feel
+              to it. Consolas is the "header" font that has the same feel as Exo but is a little bit blokier.
+
+              I made the books and telescope grow on hover for the desktop, and added a bit of a drop shadow that acts
+              like a glow. I have intentions on creating a lottie anima
+              All the assets minus the pictures from the APOD site are going to have a cartoon/hand drawn effect. It
+              will give a hand crafted, cute/whimsical feel to the site overall.</p>
+
+
+            <h3>JavaScript</h3>
+
+            <p>JavaScript is something that doesn't come to me naturally. When prompted to write something from scratch,
+              I have a tendency to freeze and have difficulty starting. If I am given a foundation of what it needs to
+              be, I can typically modify it to do what I need it to do if it is a simple function. On this project,
+              there were some major hurdles for me to figure out. The biggest one was getting the book to dynamically
+              build based on the number of images in local storage. I sought outside help since the code wasn’t reacting
+              the way that I had expected it too. Between their knowledge of other programming languages and my
+              understanding of HTML/CSS we did get it working, but at a great time expense and after the due date of the
+              project. For the turn-in I opted to turn in one that has a gallery based on a previous assignment for two
+              major factors; it wasn’t working fully and to the parameters of the assignment as well as the fact that it
+              wasn’t entirely my work. When I continue working on it to get it to the point that I want, the book asset
+              will be implemented and credit will be given to the person that helped me.</p>
+
+            <h3>Changes Moving Forward</h3>
+
+            <p>Other than implementing the book as the favorites, I have a few other changes I would like to make to
+              finish this as a portfolio piece. First off, I would like to divide the site into multiple pages again.
+              When I first developed the project it was four pages, but due to the assignment parameters, it had to have
+              one HTML, one CSS and one JS file. I am quite proud of condensing my JS file and getting that one to work
+              with no errors. Another thing that I would like to change is the book buttons on the home page. I will
+              keep the favorites as a book, but the past pictures are going to change into a tablet, since that makes
+              more sense with how the API call works as well as how I designed the page for it. I also want to create
+              some animations, likely through Lotties, to bring the whole thing to life and make it more like an
+              application than a web site based on my knowledge at this point. Lastly, I want to clean my code up,
+              validate my HTML/CSS and add the accessibility that was taught in Web Development II. </p>
+
+          </div><!--end modal-body-->
+        </div><!--end modal-content-->
+      </div> <!--end modal-dialog-->
+    </div><!--end modal-label-->
+    <!--==================== Illustrator modal============================-->
+    <div class="modal modal-xl fade" id="illustratorModal" tabindex="-1" aria-labelledby="illustratorModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="illustratorModalLabel">Illustrator</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              This assignment was an Illustrator exercise in the pen tool, as well as the pathfinder options. The
+              task was to take a rasterized image and turn it into vector art. I chose the face of the band Ghost
+              since that is one of my favorite artists and it is a dynamic image. The contrast in color with the
+              fill light being golden in color versus the cold tones in the rest of the image.
             </p>
-          </div><!-- Col Text div-->
-        </div><!---End Container Row-->
-        <!--                                 Add picture for higher quality for desktop 🍶           -->
-        <img src="images/icons/seperator.png" alt="horizontal separator" aria-hidden="true" class="w-100 p-1">
-        <!--++++++++++++++++++++++++++++++++SKILLS++++++++++++++++++++++++++++++++++++++++++-->
-        <div class="skills-programs row pb-3">
-          <div class="text-center col-12 col-md-6 col-lg-3">
-            <h4 id="skills" class="m-4">Skills</h4>
-            <div class="row">
-              <h6 class="col-4">Prototyping</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Teamwork</h6>
-            </div><!--END skills row 1-->
-            <div class="row">
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Vector Graphics</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-            </div><!--END skills row 2-->
-            <div class="row">
-              <h6 class="col-4">Photo Editing</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Adaptable</h6>
-            </div><!--END skills row 3-->
-            <div class="row">
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Initiative</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-            </div><!--END skills row 4-->
-            <div class="row justify-content-around">
-              <h6 class="col-4">Bootstrap 5</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">HTML & CSS</h6>
-            </div><!--END skills row 5-->
-            <div class="row">
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Git</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-            </div><!--END skills row 6-->
-          </div><!--END Col area 1-->
-          <!--+++++++++++++++++++++++++++++++++Med Img++++++++++++++++++++++++++++++++++++++++++-->
-          <div class="d-none col-md-6 col-lg-6  d-md-flex align-items-center justify-content-center ">
-            <picture>
-              <source media="(min-width:992px)"
-                srcset="images/photos/bridge-500x334.jpg, images/photos/bridge-1000x668.jpg 2x">
-              <source media="(min-width:768px)" srcset="images/photos/bridge-350x300.jpg">
-              <img src="images/photos/bridge-500x334.jpg" alt="Book overflowing with letters"
-                class="rounded-4 img-fluid">
-            </picture>
-          </div><!--END Col area 2-->
-          <!--+++++++++++++++++++++++++++++Programs++++++++++++++++++++++++-->
-          <div class="text-center col-12 col-md-6 col-lg-3 order-md-4">
-            <h4 id="programs" class="m-4">Programs</h4>
-            <div class="row">
-              <h6 class="col-4">GitHub</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">LightRoom</h6>
-            </div><!--END skills row 1-->
-            <div class="row">
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">CodePen</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-            </div><!--END skills row 2-->
-            <div class="row">
-              <h6 class="col-4">VSCode</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Adobe XD</h6>
-            </div><!--END skills row 3-->
-            <div class="row">
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Illustrator</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-            </div><!--END skills row 4-->
-            <div class="row justify-content-around">
-              <h6 class="col-4">WordPress</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">InDesign</h6>
-            </div><!--END skills row 5-->
-            <div class="row">
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-              <h6 class="col-4">Photoshop</h6>
-              <div class="star col-4" data-aos="flip-left" data-aos-delay="100">
-                <img src="images/icons/bulet.svg" alt="star icon" aria-hidden="true" height="40">
-              </div><!--end Star AOS-->
-            </div><!--END skills row 6-->
-          </div><!--END Col area 3-->
-          <!--+++++++++++++++++++++++++++++++Med VP Picture++++++++++++++++++++++++++++++++-->
-          <div class="col-md-6 d-none d-md-flex align-items-center d-lg-none text-center order-md-3">
-            <picture>
-              <source media="(min-width:992px)"
-                srcset="images/photos/book-photo-500x334.jpg, images/photos/book-photo-1000x668.jpg 2x">
-              <source media="(min-width:768px)" srcset="images/photos/book-photo-350x300.jpg">
-              <img src="images/photos/book-photo-500x334.jpg" alt="Book overflowing with letters"
-                class="rounded-4 img-fluid">
-            </picture>
-          </div><!--END Col area 4-->
-        </div><!--END Sills & Programs Row-->
-        <!--AOS for stars <div data-aos="flip-left"></div> -->
-        <button class="button main-button" onclick="window.location.href='mywork.html';">My
-          Work</button>
-      </main>
-    </div><!--END Container-->
+            <p>Live trace was off limits, since it was to be done manually. I was able to re-create this image with
+              only 13 colors. When testing the live trace options, the image lost a lot of detail when setting the
+              limit to 13 colors maximum. To match the colors, I used the eyedropper tool to create my pallet.</p>
+            <p>By changing the image in to vector, it allows the image to be resized without loosing detail or
+              becoming blurred. 13 colors is a lot of colors for screen printing or heat transfer vinyl, though if
+              the end goal was that, the colors could be further reduced. by using the pathfinder tool, it cuts each
+              color block into it's own shape and makes it easy to convert it into a stencil. </p>
+            <h6>Image copyright belongs to Ghost/LomaVista Records</h6>
+          </div>
+        </div><!--end modal-content-->
+      </div> <!--end modal-dialog-->
+    </div><!--end modal-label-->
+    <!--==================== Photoshop modal============================-->
+    <div class="modal modal-xl fade" id="photoshopModal" tabindex="-1" aria-labelledby="photodhopModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="photodhopModalLabel">Photoshop</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>I love to explore photoshop so I expanded on the assignment here. The parameters was to cut out two
+              subjects and place them on a different background. The movie Rocky Horror Picture Show was my
+              inspiration. I found a font that is very similar to the movie title and captured images of two of the
+              characters. I used colors present in the film as well.</p>
+
+            <p>I used many tools to create the background and the golden seal. All of the text are modified quotes
+              or a play-on-words from the film.</p>
+
+            <h6>Copyright belongs to Fox/Disney</h6>
+          </div>
+        </div><!--end modal-content-->
+      </div> <!--end modal-dialog-->
+    </div><!--end modal-label-->
+    <!--==================== Brochure modal============================-->
+    <div class="modal modal-xl fade" id="brochureModal" tabindex="-1" aria-labelledby="brochureModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="brochureModalLabel">Brochure</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>The focus on this assignment was precise and concise writing featuring product or service that didn't
+              exist. I
+              used my skills in Photoshop and Illustrator to stylize the brochure.</p>
+
+            <p>I wanted to have an elegant but a dark look. I took inspiration for the logo and color pallet from
+              wine bottles. The content inspired by historical horror movies. Filled with puns, the text adds a fun
+              and humorous side without taking away from the sleek look of the document. </p>
+
+            <h6>Photos are copyright to Unsplash </h6>
+          </div>
+        </div><!--end modal-content-->
+      </div> <!--end modal-dialog-->
+    </div><!--end modal-label-->
+
+
 
     <div class="container-fluid" id="footer">
       <footer class="d-flex flex-wrap justify-content-between align-items-center p-3">
@@ -253,6 +658,7 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init();</script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

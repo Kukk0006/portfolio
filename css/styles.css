@@ -1,11 +1,11 @@
 :root {
-  --bs-primary: #3c689e;
+  --bs-primary: #4c1752;
   --bs-primary-light:#4d93eb;
   --bs-primary-light-rgb:77, 147, 235;
-  --bs-secondary: #6e1c9e;
+  --bs-secondary: #13623c;
   --bs-secondary-light:#a836eb;
   --bs-secondary-rgba:rgba(168,54,235,1.000);
-  --bs-accent: #ebd342;
+  --bs-accent: #193963;
   --text-bg:rgba(255, 255, 255, 0.3);
   --text-base: 277deg, 55%, 40%;
   --text-hover: 276deg, 82%, 60%;
@@ -15,16 +15,20 @@
   --position: 95%;
 }
 body{
-  font-family: 'Glory', sans-serif;
+  font-family: 'Dekko', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 h1{
-  font-family: 'Cinzel Decorative', cursive;
+    font-family: "Macondo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 h2,
 h3,
 h4,
 h5{
-  font-family: 'Cormorant Upright', serif;
+  font-family: 'Macondo', serif;
 }
 header,
 main,
@@ -134,8 +138,8 @@ body{
 /*=====Glowy button  ========*/
 .main-button {
   all: unset;
-  color: #ece098;
-  font: bolder 1.5rem/1.2rem 'Cormorant Upright', serif;
+  color: #f3f3f3;
+  font: bolder 1.5rem/1.2rem 'Macondo', serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
@@ -216,7 +220,6 @@ body{
   z-index: 12;
   position: absolute;
   color: #fff;
-  font-family: 'Cinzel Decorative', cursive;
   font-size: 4rem;
 }
 .hero h2{
